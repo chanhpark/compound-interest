@@ -20,7 +20,7 @@ def main()
   r = gets.chomp.to_f
   puts "How many years will it accrue interest:"
   n = gets.chomp.to_f
-  puts "The final value will be $#{compound_interest(pv, r, n).round(2).to_s} in #{n.round (0)} years.\n"
+  puts "The final value will be $#{compound_interest(pv, r, n).round(2)} in #{n.round (0)} years.\n"
 end
 
 main()
